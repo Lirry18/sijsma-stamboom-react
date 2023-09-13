@@ -1,6 +1,7 @@
 {
   "name": "family-chart-react",
   "version": "1.0.0",
+  "homepage": "https://lirry18.github.io/sijsma-stamboom-react",
   "description": "usage of family-chart library with react",
   "keywords": [],
   "main": "src/index.js",
@@ -11,10 +12,13 @@
     "react-scripts": "3.4.3"
   },
   "devDependencies": {
+    "gh-pages": "^6.0.0",
     "typescript": "3.8.3"
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
