@@ -31,6 +31,9 @@ export default class FamilyTree extends React.Component {
     const sam_url = require('./images/riea/sam.jpeg');
     const chloe_url = require('./images/riea/chloe.jpeg');
     const lir_url = require('./images/riea/lir.jpeg');
+    const chris_url = require('./images/riea/chris.png');
+    const riea_url = require('./images/riea/riea.jpeg');
+    const flip_url = require('./images/riea/flip.jpeg');
 
     // MARIAN IMPORTS
 
@@ -42,6 +45,11 @@ export default class FamilyTree extends React.Component {
 
 
     // INA IMPORTS
+
+    const ina_url = require('./images/ina/ina.jpg');
+    const gerard_url = require('./images/ina/gerard.jpg');
+    const evi_url = require('./images/ina/evi.jpeg');
+    const cees_url = require('./images/ina/cees.jpeg');
 
     const store = f3.createStore({
         data: data(),
@@ -190,7 +198,7 @@ export default class FamilyTree extends React.Component {
               "first name": "Riea",
               "last name": "Schüller-Sijsma",
               "birthday": "1944",
-              "avatar": ""
+              "avatar": riea_url
             },
             "rels": {
               "mother": "0bfe5950-fc67-4e1b-bc9e-1c7408dea95b",
@@ -234,7 +242,7 @@ export default class FamilyTree extends React.Component {
               "first name": "Ina",
               "last name": "Sijsma",
               "birthday": "1951",
-              "avatar": ""
+              "avatar": ina_url
             },
             "rels": {
               "mother": "0bfe5950-fc67-4e1b-bc9e-1c7408dea95b",
@@ -276,7 +284,7 @@ export default class FamilyTree extends React.Component {
               "first name": "Christiaan",
               "last name": "Schüller",
               "birthday": "1940",
-              "avatar": ""
+              "avatar": chris_url
             },
             "rels": {
               "spouses": [
@@ -296,7 +304,7 @@ export default class FamilyTree extends React.Component {
               "first name": "Gerard",
               "last name": "Ploos van Amstel",
               "birthday": "1951",
-              "avatar": ""
+              "avatar": gerard_url
             },
             "rels": {
               "spouses": [
@@ -422,7 +430,7 @@ export default class FamilyTree extends React.Component {
               "first name": "Flip",
               "last name": "Schüller",
               "birthday": "1968",
-              "avatar": ""
+              "avatar": flip_url
             },
             "rels": {
               "mother": "f34acedc-20ba-4e64-8c02-69e7f54d002f",
@@ -470,7 +478,6 @@ export default class FamilyTree extends React.Component {
               "father": "bbe74156-6a86-4060-b25f-76a7f58c2aa9",
               "spouses": [
                 "71d45037-50eb-47b2-bb71-4e7fc7ad10a8",
-                "740b2122-a62a-44c0-bf6b-8e7ecc56097a"
               ],
               "children": [
                 "35af9ba7-36f6-416e-83ba-2ebed75ed25e",
@@ -671,6 +678,11 @@ export default class FamilyTree extends React.Component {
             "rels": {
               "spouses": [
                 "689176e6-4ed6-4036-977a-a5a007347ee4"
+              ],
+              "children": [
+                "35af9ba7-36f6-416e-83ba-2ebed75ed25e",
+                "bfd576ee-c541-426e-bad5-488e0a92164e",
+                "d8d59241-1f7e-4b6d-89a0-f1ee31c4795b"
               ]
             }
           },
@@ -742,28 +754,8 @@ export default class FamilyTree extends React.Component {
               "avatar": luka_url
             },
             "rels": {
-              "father": "740b2122-a62a-44c0-bf6b-8e7ecc56097a",
+              "father": "71d45037-50eb-47b2-bb71-4e7fc7ad10a8",
               "mother": "689176e6-4ed6-4036-977a-a5a007347ee4"
-            }
-          },
-          {
-            "id": "740b2122-a62a-44c0-bf6b-8e7ecc56097a",
-            "data": {
-              "gender": "M",
-              "first name": "Biologische vader",
-              "last name": "",
-              "birthday": "",
-              "avatar": ""
-            },
-            "rels": {
-              "spouses": [
-                "689176e6-4ed6-4036-977a-a5a007347ee4"
-              ],
-              "children": [
-                "35af9ba7-36f6-416e-83ba-2ebed75ed25e",
-                "bfd576ee-c541-426e-bad5-488e0a92164e",
-                "d8d59241-1f7e-4b6d-89a0-f1ee31c4795b"
-              ]
             }
           },
           {
@@ -776,7 +768,7 @@ export default class FamilyTree extends React.Component {
               "avatar": chloe_url
             },
             "rels": {
-              "father": "740b2122-a62a-44c0-bf6b-8e7ecc56097a",
+              "father": "71d45037-50eb-47b2-bb71-4e7fc7ad10a8",
               "mother": "689176e6-4ed6-4036-977a-a5a007347ee4"
             }
           },
@@ -790,7 +782,7 @@ export default class FamilyTree extends React.Component {
               "avatar": sam_url
             },
             "rels": {
-              "father": "740b2122-a62a-44c0-bf6b-8e7ecc56097a",
+              "father": "71d45037-50eb-47b2-bb71-4e7fc7ad10a8",
               "mother": "689176e6-4ed6-4036-977a-a5a007347ee4"
             }
           },
@@ -906,7 +898,7 @@ export default class FamilyTree extends React.Component {
               "first name": "Cees",
               "last name": "Ploos van Amstel",
               "birthday": "2021",
-              "avatar": ""
+              "avatar": cees_url
             },
             "rels": {
               "mother": "f92c5544-bebc-4a82-ba93-c40ba0b093ff",
@@ -939,7 +931,7 @@ export default class FamilyTree extends React.Component {
               "first name": "Evi",
               "last name": "Ploos van Amstel",
               "birthday": "2018",
-              "avatar": ""
+              "avatar": evi_url
             },
             "rels": {
               "mother": "f92c5544-bebc-4a82-ba93-c40ba0b093ff",
