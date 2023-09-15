@@ -13,6 +13,7 @@ export default class FamilyTree extends React.Component {
     // PEE IMPORTS
     const ndedi_url = require('./images/pee/ndedi.jpeg');
     const casper_url = require('./images/pee/casper.jpeg');
+    const titus_url = require('./images/pee/titus.jpeg');
 
 
     // ANE IMPORTS
@@ -42,6 +43,10 @@ export default class FamilyTree extends React.Component {
     const oliva_url = require('./images/marian/oliva.jpeg');
     const anne_url = require('./images/marian/anne.jpeg');
     const yago_url = require('./images/marian/yago.jpeg');
+    const jochem_url = require('./images/marian/jochem.jpeg');
+    const heleen_url = require('./images/marian/heleen.jpeg');
+    const franka_url = require('./images/marian/franka.jpeg');
+    const janne_url = require('./images/marian/janne.jpeg');
 
 
     // INA IMPORTS
@@ -219,7 +224,7 @@ export default class FamilyTree extends React.Component {
               "gender": "F",
               "first name": "Marian",
               "last name": "Sijsma",
-              "birthday": "",
+              "birthday": "1946",
               "avatar": ""
             },
             "rels": {
@@ -343,7 +348,7 @@ export default class FamilyTree extends React.Component {
               "gender": "M",
               "first name": "Levien",
               "last name": "Oggel",
-              "birthday": "",
+              "birthday": "1944",
               "avatar": ""
             },
             "rels": {
@@ -651,8 +656,8 @@ export default class FamilyTree extends React.Component {
               "gender": "M",
               "first name": "Jochem",
               "last name": "Oggel",
-              "birthday": "",
-              "avatar": ""
+              "birthday": "1974",
+              "avatar": jochem_url
             },
             "rels": {
               "mother": "a995ba95-233a-4f24-b995-3ed1fe6b1590",
@@ -1084,7 +1089,7 @@ export default class FamilyTree extends React.Component {
               "first name": "Titus",
               "last name": "Fekkes",
               "birthday": "1963",
-              "avatar": ""
+              "avatar": titus_url
             },
             "rels": {
               "spouses": [
@@ -1102,7 +1107,7 @@ export default class FamilyTree extends React.Component {
               "gender": "M",
               "first name": "Jelle",
               "last name": "Fekkes",
-              "birthday": "",
+              "birthday": "2006",
               "avatar": ""
             },
             "rels": {
@@ -1229,7 +1234,7 @@ export default class FamilyTree extends React.Component {
               "gender": "M",
               "first name": "Teun",
               "last name": "Fekkes",
-              "birthday": "",
+              "birthday": "2008",
               "avatar": ""
             },
             "rels": {
@@ -1271,8 +1276,8 @@ export default class FamilyTree extends React.Component {
               "gender": "F",
               "first name": "Franka",
               "last name": "Oggel",
-              "birthday": "",
-              "avatar": ""
+              "birthday": "2009",
+              "avatar": franka_url
             },
             "rels": {
               "mother": "a8650ea1-997e-40f3-a8e2-302d26f57ab1",
@@ -1285,8 +1290,8 @@ export default class FamilyTree extends React.Component {
               "gender": "F",
               "first name": "Heleen",
               "last name": "Klausen",
-              "birthday": "",
-              "avatar": ""
+              "birthday": "1974",
+              "avatar": heleen_url
             },
             "rels": {
               "spouses": [
@@ -1352,8 +1357,8 @@ export default class FamilyTree extends React.Component {
               "gender": "F",
               "first name": "Janne",
               "last name": "Oggel",
-              "birthday": "",
-              "avatar": ""
+              "birthday": "2011",
+              "avatar": janne_url
             },
             "rels": {
               "mother": "a8650ea1-997e-40f3-a8e2-302d26f57ab1",
